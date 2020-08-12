@@ -111,7 +111,6 @@ img{
     display: none;
 }
 
-
 #Contact input[type=text]{
     width: 50%;
     padding: 12px 20px;
@@ -121,6 +120,7 @@ img{
     border-radius: 4px;
     box-sizing: border-box;
 
+>>>>>>> 00ae24df4f9acb30fb9d7d842bb7fb444b450594
 }
 
 #Contact input[type=submit] {

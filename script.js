@@ -1,6 +1,5 @@
 //making carousel
 let slideIndex = 1;
-showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -47,3 +46,24 @@ for (i = 0; i < tabLinks.length; i++) {
 document.getElementById(tabName).style.display = "block";
 evt.currentTarget.className += " active";
 }
+
+
+//making counter
+const speed = 200;
+
+document.querySelectorAll('#counter').forEach(counter => {
+
+    const counterNumber = +counter.getAttribute('countTo');
+
+    const updateCount = setInterval(() => {
+
+        const divContent = +counter.innerText;
+        const increaseBy = counterNumber / speed;
+
+        divContent < counterNumber ?
+            counter.innerHTML = Math.ceil(divContent + increaseBy) :
+            clearInterval(updateCount);
+
+    }, 1);
+
+});
