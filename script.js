@@ -1,5 +1,4 @@
 //making carousel
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -50,29 +49,3 @@ evt.currentTarget.className += " active";
 }
 
 
-//form validation
-
-document.getElementById('contact').addEventListener('change', function() {
-    document.getElementById('submitBtn').disabled = validateForm();
-
-function validateForm() {
-    if(validateNameInput()) {
-        return true;
-    }
-    if(validateEmailInput()) {
-        return true;
-    }
-    if(validateMessageInput()) {
-        return true;
-    }
-    return false;
-
-    function validateNameInput() {
-        return document.getElementById('name').value === '';
-    }
-    function validateEmailInput() {
-        return document.getElementById('email').value === '';
-    }
-    function validateMessageInput() {
-        return document.getElementById('message').value === '';
-    }}
