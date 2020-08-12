@@ -99,14 +99,6 @@ img{
     border-top: none;
 }
 
-<<<<<<< HEAD
-#Practical {
-    display: none;
-}
-
-#Contact {
-    display: none;
-=======
 #Summary{
     display: none;
 }
@@ -118,7 +110,6 @@ img{
 #Contact{
     display: none;
 }
-
 
 #Contact input[type=text]{
     width: 50%;
