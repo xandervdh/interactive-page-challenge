@@ -99,8 +99,6 @@ img{
     border-top: none;
 }
 
-<<<<<<< HEAD
-=======
 #summary{
 }
 
@@ -112,7 +110,7 @@ img{
 
 }
 
->>>>>>> 9e9052f063eac61b051ce28c0d5534346bbe406b
+
 #contact input[type=text]{
     width: 50%;
     padding: 12px 20px;
@@ -121,7 +119,7 @@ img{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
->>>>>>> f6af1644f40fe4d489d823b5a50934b77e9afaa7
+
 }
 
 #contact input[type=submit] {
