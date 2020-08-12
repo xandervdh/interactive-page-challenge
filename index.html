@@ -35,9 +35,9 @@
 
 <div class="tabs">
     <div class="btns">
-        <button type="button" onclick="openTab, 'Summary'" id="summaryBtn">Summary</button>
-        <button type="button" onclick="openTab, 'Practical'" id="practicalBtn">Practical</button>
-        <button type="button" onclick="openTab, 'Contact'" id="contactBtn">Contact</button>
+        <button type="button" onclick="openTab, 'Summary'" class="tabLink">Summary</button>
+        <button type="button" onclick="openTab, 'Practical'" class="tabLink">Practical</button>
+        <button type="button" onclick="openTab, 'Contact'" class="tabLink">Contact</button>
     </div>
     <div class="content">
         <div class='tab' id='summary'>
@@ -74,7 +74,7 @@
             14:00H
         </div>
         <div class='tab' id="contact">
-            <form action="">
+            <form action="" id="contactForm">
                 <label for="name">Name</label><br/>
                 <input type="text" id="name" name="name" placeholder="Your name..">
                 <br/>
@@ -84,7 +84,7 @@
                 <label for="message">Message</label><br/>
                 <input type="text" id="message" name="messae" placeholder="Your message..">
                 <br/>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submitButton">
             </form>
         </div>
     </div>
