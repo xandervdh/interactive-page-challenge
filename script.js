@@ -28,6 +28,7 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
+<<<<<<< HEAD
 }
 
 //making tabs
@@ -49,3 +50,6 @@ evt.currentTarget.className += " active";
 }
 
 
+=======
+}
+>>>>>>> 7388e86042259bc470b36d224f5e7385fdc9b40b

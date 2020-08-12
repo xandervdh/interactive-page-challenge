@@ -34,14 +34,20 @@
 </div>
 <div class="tabs">
     <div class="btns">
+<<<<<<< HEAD
         <button type="button" onclick="openTab, 'Summary'">Summary</button>
         <button type="button" onclick="openTab, 'Practical'">Practical</button>
         <button type="button" onclick="openTab, 'Contact'" id="contactBtn">Contact</button>
 
+=======
+        <button type="button" onclick="openTab(event, 'Summary')" class="tabLink" >Summary</button>
+        <button type="button" onclick="openTab(event, 'Practical')" class="tabLink">Practical</button>
+        <button type="button" onclick="openTab(event, 'Contact')" class="tabLink">Contact</button>
+>>>>>>> 7388e86042259bc470b36d224f5e7385fdc9b40b
     </div>
 
     <div class="content">
-        <div class='tab' id='summary'>
+        <div class='tab' id='Summary'>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac magna ornare, interdum odio non,
                 aliquet
@@ -67,14 +73,14 @@
                 Sed sed neque nec libero cursus lacinia.
             </p>
         </div>
-        <div class='tab' id='practical'>
+        <div class='tab' id='Practical'>
             Where?<br/>
             Outpost Antwerp<br/>
             Adress: Beggaardenstraat 6, 2000 Antwerpen<br/>
             Time?<br/>
             14:00H
         </div>
-        <div class='tab' id="contact">
+        <div class='tab' id="Contact">
             <form action="" id="contactForm">
                 <label for="name">Name</label><br/>
                 <input type="text" id="name" name="name" placeholder="Your name..">
