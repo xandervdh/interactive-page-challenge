@@ -99,19 +99,20 @@ img{
     border-top: none;
 }
 
-#summary{
+#Summary{
+    display: none;
 }
 
-#practical{
-
+#Practical{
+    display: none;
 }
 
-#practical{
-
+#Contact{
+    display: none;
 }
 
 
-#contact input[type=text]{
+#Contact input[type=text]{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -122,7 +123,7 @@ img{
 
 }
 
-#contact input[type=submit] {
+#Contact input[type=submit] {
     width: 50%;
     background-color: orange;
     color: white;
@@ -133,11 +134,11 @@ img{
     cursor: pointer;
 }
 
-#contact input[type=submit]:hover {
+#Contact input[type=submit]:hover {
     background-color: darkorange;
 }
 
-#contact label{
+#Contact label{
     width: 100%;
     margin: auto;
 }
