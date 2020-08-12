@@ -1,7 +1,15 @@
+body{
+  background-color: #000;
+}
+
 .carousel{
   width: 100%;
   position: relative;
   margin: auto;
+}
+
+img{
+  width: 100%;
 }
 
 .pictures{
@@ -49,4 +57,22 @@
 
 .dots{
   text-align: center;
+}
+
+.tabs{
+  width: 60%;
+  position: relative;
+  margin: auto;
+}
+
+#summary{
+  background-color: #fff;
+}
+
+#practical{
+  background-color: #bbb;
+}
+
+#contact{
+  background-color: #717171;
 }
