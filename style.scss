@@ -1,9 +1,11 @@
 body{
   background-color: #000;
+  width: 100%;
 }
 
 .carousel{
-  width: 100%;
+  width: 80px;
+  display: block;
   position: relative;
   margin: auto;
 }
@@ -63,6 +65,37 @@ img{
   width: 60%;
   position: relative;
   margin: auto;
+}
+
+.btns{
+  background-color: #f0f0f0;
+}
+
+#summarybtn{
+  display: block;
+  background-color: red;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 33%;
+  float: left;
+}
+
+#practicalbtn{
+  display: block;
+  background-color: red;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 33%;
+  float: left;
+}
+
+#contactbtn{
+  display: block;
+  background-color: red;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 33%;
+  float: left;
 }
 
 #summary{
