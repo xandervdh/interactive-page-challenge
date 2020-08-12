@@ -1,11 +1,14 @@
 body{
     background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
 }
 
 .carousel{
     width: 80%;
     position: relative;
     margin: auto;
+    margin-top: 10px;
 }
 
 img{
@@ -49,6 +52,7 @@ img{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-bottom: 20px;
 }
 
 .active, .dot:hover {
@@ -90,18 +94,52 @@ img{
 }
 
 .content{
-    /*display: none;*/
+    display: none;
     padding: 2% 2%;
     border: 1px solid #ccc;
     border-top: none;
 }
 
 #summary{
+<<<<<<< HEAD
 }
 
 #practical{
+=======
+
 }
 
-#contact{
+#practical{
 
+}
+
+#contact input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+>>>>>>> f6af1644f40fe4d489d823b5a50934b77e9afaa7
+}
+
+#contact input[type=submit] {
+    width: 50%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type=submit]:hover {
+    background-color: darkorange;
+}
+
+#contact label{
+    width: 100%;
+    margin: auto;
 }
