@@ -7,7 +7,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
@@ -32,4 +31,21 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
+//making tabs
 
+function openTab(evt, cityName) {
+    let i, tabContent, tabLinks;
+
+tabContent = document.getElementsByClassName("tab");
+for (i = 0; i < tabContent.length; i++) {
+    tabContent[i].style.display = "none";
+}
+
+tabLinks = document.getElementsByClassName("tabLinks");
+for (i = 0; i < tabLinks.length; i++) {
+    tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+}
+
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";
+}
